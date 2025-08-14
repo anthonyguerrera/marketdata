@@ -1,4 +1,21 @@
 """
+| Symbol  | ADTV (shares) | Bucket Count (n) | Bucket Size (V = ADTV/n) |
+| ------- | ------------- | ---------------- | ------------------------ |
+| **SPY** | 72 M          | 25               | 2,880,000 shares         |
+|         |               | 50 (default)     | 1,440,000 shares         |
+|         |               | 100              | 720,000 shares           |
+|         |               | 200              | 360,000 shares           |
+| **GME** | 14 M          | 10               | 1,400,000 shares         |
+|         |               | 25               | 560,000 shares           |
+|         |               | 50               | 280,000 shares           |
+|         |               | 100              | 140,000 shares           |
+
+
+
+
+
+
+
 Minimal, production-style VPIN implementation (recursive, EWMA volatility for BVC) — NumPy/SciPy/Pandas edition.
 
 Files in this single-module package-style script:
